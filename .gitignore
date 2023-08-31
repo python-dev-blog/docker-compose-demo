@@ -1,0 +1,8 @@
+**__pycache__
+.idea
+prediction/.env
+**venv/
+**.pytest_cache
+prediction/static
+prediction/celerybeat-schedule
+prediction-app/node_modules

@@ -1,0 +1,32 @@
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background: linear-gradient(to bottom right, #0f0bc1, #9b56e7, #270756, #0f00a3);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.generate-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #24003e;
+  background: linear-gradient(to bottom right, #fbfbfb, #9244d9);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.prediction {
+  margin-top: 20px;
+  font-size: 28px;
+  text-align: center;
+}
