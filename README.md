@@ -4,6 +4,14 @@
 
 [Список основных Docker кмоманд](https://github.com/python-dev-blog/docker-demo)
 
+### Запуск приложения
+
+```
+git clone git@github.com:python-dev-blog/docker-compose-demo.git
+cd docker-compose-demo
+docker-compose up
+```
+
 ### Запуск контейнеров
 
 - `docker inspect` - запускает все сервисы и контейнеры на основе вашего docker-compose.yml файла
